@@ -80,6 +80,7 @@ li a.active {
 
 .rectangle {
   height: 50px;
-  width: 100px;
-  background-color: #555;
+  width: 80%px;
+  background-color: rgb(226, 218, 207);
+  border-radius: 15px;
 }
