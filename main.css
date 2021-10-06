@@ -79,8 +79,8 @@ li a.active {
 }
 
 .rectangle{
-  height: 50px;
-  width: 200px;
+  height: 400px;;
+  width: 80%;
   background-color: rgb(226, 218, 207);
   border-radius: 15px;
 }
