@@ -78,9 +78,8 @@ li a.active {
 
 }
 
-.tpbox{
-  width: 80%;
-  text-align: center;
-  border-radius: 15px;
-  
+.rectangle {
+  height: 50px;
+  width: 100px;
+  background-color: #555;
 }
