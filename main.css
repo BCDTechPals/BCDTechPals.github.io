@@ -77,9 +77,18 @@ li a.active {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+.TitlePageone{
+  font-size: 3vw !important;
+  font-family: "Sacramento";
+  font-synthesis: weight;
+  color: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
 .rectangle{
-  height: 400px;;
+  height: 200px;;
   width: 80%;
   background-color: rgb(36, 24, 7);
   opacity: 75%;
