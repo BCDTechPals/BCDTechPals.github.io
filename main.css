@@ -81,4 +81,6 @@ li a.active {
 .tpbox{
   width: 80%;
   text-align: center;
+  border-radius: 15px;
+  
 }
