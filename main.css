@@ -56,10 +56,10 @@ li a.active {
 }
 
 .motto {
-  height: 2.75vw;
+  height: 3vw;
   padding-top: 30px;
   padding-right: 10px;
-  float: right;
+  float: none;
 }
 .mottoli {
   float: right !important;
