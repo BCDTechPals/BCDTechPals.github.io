@@ -5,11 +5,10 @@ font-family: "Nunito Sans";
 background-image: url("seniora.jpeg");
 background-repeat: no-repeat;
 background-size: cover;
-
-
-
 }
-
+.standard{
+  background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff) !important; 
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -17,9 +16,10 @@ ul {
   overflow: hidden;
   background-color: rgb(112, 199, 90);
   position: -webkit-sticky; /* Safari */
-  position: sticky;
+  position: sticky relative;
   top: 0;
   border-radius: 15px;
+  z-index: 2;
 }
 
 li {
@@ -80,17 +80,60 @@ li a.active {
 .TitlePageone{
   font-size: 3vw !important;
   font-family: "Sacramento";
-  font-synthesis: weight;
   color: white;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  float: top;
+  padding-top: 20px;
 
 }
 .rectangle{
-  height: 200px;;
-  width: 80%;
+  height: 200px;
+  width: 85%;
   background-color: rgb(36, 24, 7);
   opacity: 75%;
   border-radius: 40px;
+}
+.rectangleone{
+  height: 400px;;
+  width: 1100px;
+  background-color: rgb(36, 24, 7);
+  opacity: 75%;
+  border-radius: 40px;
+  padding: 10px;
+}
+.bistdulost{
+  font-size: 1.5vw !important;
+  font-family: "Nunito Sans";
+  color: white;
+  
+}
+
+.thin br {
+  display: block;
+  margin: 10px 0;
+}
+
+.linky{
+
+}
+
+a:link {
+  color: rgb(0, 255, 170);
+}
+
+a:visited {
+  color: rgb(18, 158, 0);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(177, 255, 158);
+}
+
+/* selected link */
+a:active {
+  color: rgb(0, 255, 64);
+}
+
+iframe{
+  overflow: hidden;
 }
