@@ -90,6 +90,13 @@ li a.active {
   opacity: 75%;
   border-radius: 40px;
 }
+.rectangleonexx {
+  height: 50px;
+  width: 85%;
+  background-color: rgb(36, 24, 7);
+  opacity: 75%;
+  border-radius: 40px;
+}
 .rectangleone {
   height: 85%;
   width: 85%;
