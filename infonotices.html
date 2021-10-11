@@ -241,15 +241,37 @@
     }
     </script>
 <br><center>
-<div style="width: 85%;">
-  <div id="cusdis_thread"
-  data-host="https://cusdis.com"
-  data-app-id="942419dc-c3e1-49ac-b2f4-e53ad3e46f1c"
-  data-page-id="{{ PAGE_ID }}"
-  data-page-url="{{ PAGE_URL }}"
-  data-page-title="{{ PAGE_TITLE }}"
-></div></div>
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+<div id="graphcomment"></div>
+<script type="text/javascript">
+
+  /* - - - CONFIGURATION VARIABLES - - - */
+
+  var __semio__params = {
+    graphcommentId: "github-computers-bouldercds", // make sure the id is yours
+
+    behaviour: {
+        uid: "github.computers-bouldercds"
+    },
+
+    // configure your variables here
+
+  }
+
+  /* - - - DON'T EDIT BELOW THIS LINE - - - */
+
+  function __semio__onload() {
+    __semio__gc_graphlogin(__semio__params)
+  }
+
+
+  (function() {
+    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+  })();
+  
+
+</script>
 
  </center> 
 <br><br><center><img src="gif.gif" style="border-radius: 30px;">
