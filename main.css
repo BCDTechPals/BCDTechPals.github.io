@@ -116,6 +116,7 @@ li a.active {
   border-radius: 40px;
   padding: 10px;
   color: white !important;
+  text-align: center;
 }
 .bistdulost {
   font-size: 1.5vw !important;
