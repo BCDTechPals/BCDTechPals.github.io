@@ -2,7 +2,7 @@
   "name": "BCD Tech Pals Portal",
   "short_name": "BCDTechPals",
   "start_url": "index.html",
-  "display": "standalone",
+  "display": "minimal",
   "background_color": "#000159",
   "theme_color": "#000159",
   "orientation": "portrait-primary",
