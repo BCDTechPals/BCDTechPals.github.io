@@ -34,20 +34,32 @@
       <li>&nbsp;</li>
       <li><br /><a class="active" href="#clickit">How-To</a><br></li>
     </ul>
-    <script src="https://cdn.plyr.io/3.6.9/plyr.js"></script>
+    <script src="https://unpkg.com/plyr@3.6.9/dist/plyr.min.js"></script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,Array.prototype.includes,CustomEvent,Object.entries,Object.values,URL"></script>
     
-  <center> <h1 class="TitlePage"style="font-size: 65px !important;">How-TO videos</h1> </center><center><div class="rectangleone"><br>   
- <script>
-    const player = new Plyr('#player');
-  </script>
-    
-    <video id="player" playsinline controls data-poster="12345.jpg">
-      <source src="mpeg.mp4" type="video/mp4" />
-    
-    </video>
+  <center> <h1 class="TitlePage"style="font-size: 65px !important;">How-TO videos</h1> </center>
+  
+  <center><div class="rectangleone"><br> 
+    <script>
+      // Change the second argument to your options:
+  // https://github.com/sampotts/plyr/#options
+  const player = new Plyr('video', {captions: {active: true}});
 
+  // Expose player so it can be used from the console
+  window.player = player;
 
+    </script>  
+    <div class="container">
+      <video controls crossorigin playsinline poster="tejas.jpg">
+         
+          <source src="seven.mp4" type="video/mp4" size="720">
+          <source src="mpeg.mp4" type="video/mp4" size="1080">
+    
+          <a href="mpeg.mp4" download>Download</a>
+      </video>
+    </div>
   </div>
-<center> </center>
+</center>
+
   </body>
 </html>
