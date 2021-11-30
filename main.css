@@ -99,6 +99,11 @@ li a.active {
   padding-top: 6px;
   padding-bottom: 6px;
 }
+.vjs-matrix .vjs-volume-level,
+.vjs-matrix .vjs-play-progress,
+.vjs-matrix .vjs-slider-bar {
+  background: #0011ff;
+}
 .rectangleone {
   height: 85%;
   width: 85%;
